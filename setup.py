@@ -43,7 +43,10 @@ setup(
     ),
     test_suite="tests",
     tests_require=test_requirements,
-    url="https://github.com/masonegger/text_password_protect",
-    version="0.1.0",
+    project_urls={
+        "Documentation": "https://text-password-protect.readthedocs.io/en/latest/",
+        "Source": "https://github.com/masonegger/text-password-protect",
+    },
+    version="0.1.1",
     zip_safe=False,
 )
