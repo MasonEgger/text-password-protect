@@ -2,6 +2,7 @@
 Usage
 =====
 
+
 To use Text Password Protect in a project::
 
     from text_password_protect import TextPasswordProtect
@@ -25,3 +26,17 @@ To use Text Password Protect in a project::
     plaintext = tpp.decrypt(ciphertext, test_password)
 
     print(plaintext)
+
+Salt and Environment Variables
+------------------------------
+
+The salt is a crucial piece of the encryption. It must be set the same for 
+encryption & decryption to work properly. There are many ways of setting the salt
+
+* On Instantiation of the Object
+* Using the `set_salt` method
+* Setting the TPPSALT environment variable
+
+Be sure to secure your Salt in a safe place. Gaining access to it could compromise
+your encryption.
+
