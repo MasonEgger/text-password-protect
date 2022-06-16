@@ -44,8 +44,12 @@ In code:
       # Decrypt ciphertext
       plaintext = tpp.decrypt(ciphertext, test_password)
 
-      # Plaintext if of type str
+      # Plaintext is of type str
       print(plaintext)
+
+      # Want the sha256 hex digest of some text?
+      sha256 = tpp.sha256hex(test_password)
+      print(sha256)
 
 Contents
 ########

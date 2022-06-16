@@ -2,7 +2,12 @@
 History
 =======
 
-0.1.0 (2022-06-16)
+0.2.0 (2022-06-16)
+------------------
+
+* Adding sha256 capabilities
+
+0.1.1 (2022-06-16)
 ------------------
 
 * Few minor tweaks to docs, READMEs. Code didn't change

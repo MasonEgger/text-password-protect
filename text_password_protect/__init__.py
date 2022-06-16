@@ -5,7 +5,7 @@ __email__ = "mason@masonegger.com"
 __version__ = "0.1.0"
 
 """Main module."""
-import base64, os, socket
+import base64, os, socket, hashlib
 from cryptography.fernet import Fernet
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import hashes
@@ -98,3 +98,14 @@ class TextPasswordProtect:
         decrypted_message = f.decrypt(ciphertext)
 
         return decrypted_message.decode("utf-8")
+
+    def sha256hex(self, text: str) -> str:
+        """
+        Generate the 256 hex digest of a string
+
+        :param text: The text you want the sha256 of
+        :type ciphertext: str
+        """
+        m = hashlib.sha256()
+        m.update(text.encode("utf-8"))
+        return m.hexdigest()

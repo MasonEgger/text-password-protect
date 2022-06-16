@@ -39,6 +39,11 @@ In code:
     plaintext = tpp.decrypt(ciphertext, test_password)
 
     print(plaintext)
+
+    # Want the sha256 hex digest of some text?
+    sha256 = tpp.sha256hex(test_password)
+
+    print(sha256)
 ```
 
 

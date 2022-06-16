@@ -21,7 +21,7 @@ setup(
     author_email="mason@masonegger.com",
     python_requires=">=3.7",
     classifiers=[
-        "Development Status :: 2 - Pre-Alpha",
+        "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Natural Language :: English",
@@ -47,6 +47,6 @@ setup(
         "Documentation": "https://text-password-protect.readthedocs.io/en/latest/",
         "Source": "https://github.com/masonegger/text-password-protect",
     },
-    version="0.1.1",
+    version="0.2.0",
     zip_safe=False,
 )
