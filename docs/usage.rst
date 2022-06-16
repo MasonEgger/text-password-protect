@@ -4,7 +4,7 @@ Usage
 
 To use Text Password Protect in a project::
 
-    from text_password_protect import TextPassword Protect
+    from text_password_protect import TextPasswordProtect
     
     test_text = "Hello There"
     test_password = "General Kenobi"

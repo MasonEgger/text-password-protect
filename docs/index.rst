@@ -24,7 +24,7 @@ In code:
 
 .. code:: python
 
-      from text_password_protect import TextPassword Protect
+      from text_password_protect import TextPasswordProtect
        
       test_text = "Hello There"
       test_password = "General Kenobi"
