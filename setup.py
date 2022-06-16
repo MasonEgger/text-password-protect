@@ -4,7 +4,7 @@
 
 from setuptools import setup, find_packages
 
-with open("README.md") as readme_file:
+with open("README.rst") as readme_file:
     readme = readme_file.read()
 
 with open("HISTORY.rst") as history_file:
@@ -19,7 +19,7 @@ test_requirements = [
 setup(
     author="Mason Egger",
     author_email="mason@masonegger.com",
-    python_requires=">=3.8",
+    python_requires=">=3.7",
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Intended Audience :: Developers",
